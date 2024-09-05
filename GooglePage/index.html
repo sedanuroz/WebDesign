@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Google yazısının ustundeki butonları olusturduk-->
+    <div>
+        <button class="font">About</button>
+        <button class="font">Store</button>
+
+        <button class="font" style="background-color: blue; color: white; float: right;">Sign in</button>
+        <button class="font" style=" width: 50; float:right;">
+            <img style="width: 30px;"
+                src="data:image/png;base64,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"
+                alt="">
+        </button>
+        <button class="font" style="float: right;"> Images</button>
+        <button class="font" style="float: right;">Gmail</button>
+    </div>
+    <!--------------------------------------------------->
+
+    <!--Google yazısını olusturacağız-->
+    <div class="googleFontStyle">
+        <span style="color:	#146dc5;">G</span>
+        <span style="color: rgb(238, 44, 44);">o</span>
+        <span style="color: #FFBA00;">o</span>
+        <span style="color: #146dc5;">g</span>
+        <span style="color: rgb(5, 173, 5);">l</span>
+        <span style="color:  rgb(238, 44, 44);">e</span>
+    </div>
+
+
+    <!--Arama cubugunun butonunu yapacagız-->
+    <div class="button">
+        <button>
+            <img style="height: 50px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnC3jf_e_7SwXvGbUAnMMZW8oM0Er1Si9rbg&usqp=CAU">
+            
+        </button>
+    </div>
+
+    <div >
+        <button class="font"   style="margin-left: 2000px;">Google Search</button>
+        <button class="font" >I'm Feeling Lucky</button>
+    </div>
+
+</body>
+
+</html>
