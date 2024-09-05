@@ -1,0 +1,123 @@
+.box1 {
+    width: 1350px;
+    height: 500px;
+    padding-bottom: 2%;
+    
+}
+.box2{
+    width: 1000px;
+    height: 475px;
+    margin-bottom: -45px;
+}
+.box3{
+    width: 1350px;
+    height: 800px;
+    float: left;
+    
+
+}
+/*google beta yazısının oldugu kutu ve ortalayacagız sayfaya*/
+.box4{
+  width: 5000px;
+  background-color: aqua;
+}
+.box5{/*bos kutu olusturduk*/
+    height: 400px;
+
+}
+.box6{/*google yazısının basına gelip onu ortalamamızı saglayacak kutu*/
+    height: 500px;
+    width: 1300px;
+    float: left;
+}
+
+.blue {
+    color: rgb(37, 37, 180);
+}
+
+.red {
+    color: #bd2619;
+}
+
+.yellow {
+    color: #FDE910;
+}
+
+.green {
+    color: rgba(31, 197, 31, 0.904);
+}
+
+/*google yazısının yazı ozellikleri*/
+.fontStyle {
+    font-weight: bold;
+    font-size: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -60px;
+}
+
+/* beta yazısının ozellikleri*/
+.fontStyleTwo {
+    font-weight: normal;
+    font-size: 155px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 70px;
+}
+/*search kısmı ile ilgili özellikler*/
+
+.greyBox1{
+    background-color: rgba(202, 198, 198, 0.726);
+    height: 100px;
+    width: 1400px;
+    float: left;
+    margin-top: -90px;
+}
+.greyBox2{
+    background-color: rgba(202, 198, 198, 0.726);
+    height: 100px;
+    width: 1842px;
+    float: left;
+    margin-top: -90px;
+}
+
+.whiteBox{
+    height: 100px;
+    width: 1800px;
+    float: left;
+    margin-top: -90px;
+   
+}
+.greyBox3{
+    background-color: rgba(202, 198, 198, 0.726);
+    height: 100px;
+    margin-top: 100px;
+ 
+    
+}
+.greyFont{
+    padding-left: 1800px;
+    font-size: 90px;
+    background-color:rgba(202, 198, 198, 0.726);
+   
+   
+}
+
+.blueFont{
+    font-size: 70px;
+    color:blue;
+    margin:auto;
+}
+
+.blueBox{
+    margin-top: 10px;
+    background-color: rgb(158, 201, 236);
+    height: 400px;
+    float: left;
+}
+.blueBox2{
+    margin-top: 10px;
+    background-color: rgb(158, 201, 236);
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
